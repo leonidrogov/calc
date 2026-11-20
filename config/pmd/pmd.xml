@@ -11,5 +11,7 @@
         <exclude name="AvoidLiteralsInIfCondition" />
     </rule>
 
-    <rule ref="category/java/bestpractices.xml" />
+    <rule ref="category/java/bestpractices.xml">
+             <exclude name="SystemPrintln" />
+    </rule>
 </ruleset>
