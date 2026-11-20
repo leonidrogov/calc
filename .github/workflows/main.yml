@@ -1,0 +1,22 @@
+name: java pmd lint
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+      - name: set up jdk
+        uses: actions/setup-java@v6
+        with:
+          distribution: 'temurin'
+          java-version: 21
+          cache: maven
+      - name: pmd check
+        run: mvn pmd:check
+      - name: tests
+        run: mvn test
