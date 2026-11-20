@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calculator.CalculatorTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-06T09:56:17.583Z" hostname="ASUSLAPTOP-LEON" time="0.071">
+  <properties/>
+  <testcase name="Mismatched parentheses" classname="Calculator.CalculatorTest" time="0.025"/>
+  <testcase name="RPN: parentheses change order" classname="Calculator.CalculatorTest" time="0.007"/>
+  <testcase name="Subtraction and parentheses" classname="Calculator.CalculatorTest" time="0.003"/>
+  <testcase name="Empty input" classname="Calculator.CalculatorTest" time="0.001"/>
+  <testcase name="Multiplication and division precedence" classname="Calculator.CalculatorTest" time="0.002"/>
+  <testcase name="Simple addition" classname="Calculator.CalculatorTest" time="0.002"/>
+  <testcase name="Multiplication and division precedence" classname="Calculator.CalculatorTest" time="0.002"/>
+  <testcase name="Complex expression" classname="Calculator.CalculatorTest" time="0.005"/>
+  <testcase name="Division by zero throws exception" classname="Calculator.CalculatorTest" time="0.002"/>
+  <testcase name="Exponentiation (right-associative)" classname="Calculator.CalculatorTest" time="0.003"/>
+  <testcase name="RPN: simple addition" classname="Calculator.CalculatorTest" time="0.002"/>
+  <testcase name="RPN: multiply before add" classname="Calculator.CalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
