@@ -16,7 +16,11 @@ jobs:
           distribution: 'temurin'
           java-version: 21
           cache: maven
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v6
+      - name: Build with Gradle
+        run: ./gradlew build
       - name: pmd check
-        run: mvn pmd:check
+        run: ./gradlew check
       - name: tests
-        run: mvn test
+        run: ./gradlew test
